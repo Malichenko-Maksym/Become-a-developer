@@ -13,9 +13,19 @@
         <form>
             <textarea id="textArea" name="enteredText" rows="25" cols="50"></textarea>
             <br>
-            <input type="submit" value="Get the answer" onclick="getResult()" class="button" >
+            <input id="submitButton" type="submit" value="! Get the answer !" onclick="getResult()" class="button" >
         </form>
         </div>
+
+        <p> Character sequences that consist of latin or cyrillic letters, digits or symbols:" `'()+-_ "</p>
+        <p> are considered as a words. All other symbols(as well as whitespaces) are considered as </p>
+        <p> a separators that separate words from each other.</p>
+        <p> Program is case case-sensitive, symbols that have different Unicode, are considered as different </p>
+        <p> (even if they are looking the same). </p>
+        <p>Program works in the left-to-right manner.</p>
+        <p> If word doesn't have any unique symbols, it's skipped.</p>
+        <p> If there is no unique symbol in the final array of unique symbols, message like that will appear:</p>
+        <p>"First unique char from the array of unique chars is undefined"</p>
     </div>
 </body>
 

@@ -27,6 +27,8 @@ public class MainController {
 
             }
         }
+
+
         return  FirstUniqChar.find(madeWord).get();
     }
 }

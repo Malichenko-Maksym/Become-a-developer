@@ -10,10 +10,8 @@
 .button {
     border-radius: 15px;
     position: relative;
-    background: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
-    border: black;
     letter-spacing: 0.1rem;
     font-size: 1rem;
     padding: 1rem 3rem;

@@ -10,10 +10,10 @@
 .button {
     border-radius: 15px;
     position: relative;
-    background: #ffffff;
+    color: crimson;
+    background: #000000;
     text-decoration: none;
     text-transform: uppercase;
-    border: black;
     letter-spacing: 0.1rem;
     font-size: 1rem;
     padding: 1rem 3rem;
@@ -23,4 +23,9 @@
 p{
     letter-spacing: 0.1rem;
     font-size: larger;
+}
+
+#submitButton{
+    color: crimson;
+    background-color: orange;
 }
