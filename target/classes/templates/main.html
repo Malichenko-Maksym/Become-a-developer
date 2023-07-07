@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Become a developer</title>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <p>Enter text here</p>
+        <div  class="container">
+        <form>
+            <textarea id="textArea" name="enteredText" rows="25" cols="50"></textarea>
+            <br>
+            <input type="submit" value="Get the answer" onclick="getResult()" class="button" >
+        </form>
+        </div>
+    </div>
+</body>
+
+<!--<script>-->
+<!--    var request = new XMLHttpRequest();-->
+
+<!--    let textArea = document.getElementById('textArea');-->
+<!--    function getResult(){-->
+<!--        let answer;-->
+<!--        request.open("POST","/submitText",false);-->
+<!--        request.setRequestHeader("Content-Type", "application/json;charset=UTF-8");-->
+<!--        request.onreadystatechange = function() {-->
+<!--            if(request.readyState === XMLHttpRequest.DONE && request.status===200){-->
+<!--                answer = request.response;-->
+<!--            }-->
+<!--        };-->
+<!--        request.send(textArea.value);-->
+<!--        alert("First unique char from the array of unique chars is "+""+answer+"");-->
+
+<!--    }-->
+<!--</script>-->
+
+<script src="/javaScript/code.js"></script>
+</html>

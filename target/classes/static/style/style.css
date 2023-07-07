@@ -1,0 +1,26 @@
+
+.container {
+    display: flow;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+.button {
+    border-radius: 15px;
+    position: relative;
+    background: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: black;
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+    padding: 1rem 3rem;
+    transition: 0.2s;
+}
+
+p{
+    letter-spacing: 0.1rem;
+    font-size: larger;
+}
